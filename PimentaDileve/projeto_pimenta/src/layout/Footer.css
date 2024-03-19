@@ -1,0 +1,13 @@
+.layout_footer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.insta{
+    background-color: white;
+    border-radius: 50%;
+}

@@ -1,0 +1,116 @@
+.grid_sabores{
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: 'sabor1' 'sabor2' 'sabor3';
+}
+
+.div_sabor1{
+    grid-area: sabor1;
+    padding: 10px;
+    background-color: #565656;
+}
+
+.div_sabor2{
+    grid-area: sabor2;
+    padding: 10px;
+    background-color: #333333;
+}
+
+.div_sabor3{
+    grid-area: sabor3;
+    padding: 10px;
+    background-color: #232323;
+}
+
+.img_sabor1{
+  border-radius: 50px; 
+}
+.img_sabor1:hover{
+    transform: scale(1.05);
+    transition: transform 0.3 ease;
+}
+
+.img_sabor2{
+    border-radius: 50px;   
+}
+.img_sabor2:hover{
+    transform: scale(1.05);
+    transition: transform 0.3 ease;
+}
+
+.img_sabor3{
+    border-radius: 50px;
+}
+
+.img_sabor3:hover{
+    transform: scale(1.05);
+    transition: transform 0.3 ease;
+}
+
+.div_img_sabor{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding:5px;
+
+}
+
+.descricao_sabor{
+    margin: 0 0 0 24px;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: auto;
+    color: white;
+   
+}
+
+.descricao_sabor3{
+    margin: 0 0 0 24px;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: auto;
+    color: white;
+}
+
+.descricao_sabor{
+    text-align: justify;
+}
+
+.valor_sabor{
+    border-radius: 10px ;
+    border-color: red;
+    border-style: solid;
+    text-align: center;
+    padding: 3px;
+}
+
+.descricao_sabor:hover{
+    transform: scale(1.05);
+    transition: transform 0.3 ease;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 10px;
+}
+
+.descricao_sabor3:hover{
+    transform: scale(1.05);
+    transition: transform 0.3 ease;
+    background-color: rgba(128, 128, 128, 0.26);
+    border-radius: 10px;
+}
+
+.valor3_sabor{
+    width: 295px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+}
