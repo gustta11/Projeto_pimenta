@@ -2,6 +2,8 @@
 
 Projeto feito sobre a marca Pimenta DiLeve, a pedido do professor Marcos Vinícius do *SENAI-ALAGOINHAS*.
 
+O professor pediu que escolhessemos uma marca física de nossa cidade e desenvolvessémos uma presença visual da mesma, eu escolhi fazer da Pimenta DiLeve, nesse projeto aprendi a utilizar novos hooks como: React Router, useEffect e UseState e também eventos como OnMouseDown.
+
 # Tecnologias
 
 As tecnologia utilizadas no projeto foram definidas pelo professor.
